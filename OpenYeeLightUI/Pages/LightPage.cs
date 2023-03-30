@@ -10,9 +10,6 @@ using System.Windows.Forms;
 using nucs.JsonSettings;
 using OpenYeeLightUI.Classes;
 using Sunny.UI;
-using Colore;
-using ColoreColor = Colore.Data.Color;
-using Colore.Effects.Keyboard;
 
 namespace OpenYeeLightUI.Pages
 {
@@ -327,16 +324,6 @@ namespace OpenYeeLightUI.Pages
 
                 SetInformationTextBox();
                 NotifyUser(SetNameButton, "Light name set");
-            }
-        }
-
-        //test set razer color stuff button
-        private async void RazerTestButton_Click(object sender, EventArgs e)
-        {
-            var chroma = await MyColoreClass.GetInstanceAsync();
-            if(chroma != null)
-            {
-                Console.WriteLine("AM REUSIT!!!!");
             }
         }
     }

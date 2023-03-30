@@ -4,8 +4,6 @@ using System;
 using System.Threading;
 using System.Windows.Forms;
 using OpenYeeLightUI.Classes;
-using Colore;
-using Colore.Data;
 
 namespace OpenYeeLightUI
 {
@@ -25,7 +23,6 @@ namespace OpenYeeLightUI
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            RazerSDK.Initialize();
 
             try
             {
@@ -38,7 +35,6 @@ namespace OpenYeeLightUI
             }
 
             SingleInstance.Stop();
-
         }
     }
 }

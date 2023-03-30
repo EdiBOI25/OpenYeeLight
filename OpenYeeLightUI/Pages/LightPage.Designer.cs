@@ -56,7 +56,6 @@
             this.FeedbackButton = new Sunny.UI.UISymbolButton();
             this.ReportButton = new Sunny.UI.UISymbolButton();
             this.DonateButton = new Sunny.UI.UISymbolButton();
-            this.RazerTestButton = new Sunny.UI.UISymbolButton();
             this.PagePanel.SuspendLayout();
             this.ControlsGroupBox.SuspendLayout();
             this.ColorPickerGroupBox.SuspendLayout();
@@ -67,7 +66,6 @@
             // 
             // PagePanel
             // 
-            this.PagePanel.Controls.Add(this.RazerTestButton);
             this.PagePanel.Controls.Add(this.DonateButton);
             this.PagePanel.Controls.Add(this.ReportButton);
             this.PagePanel.Controls.Add(this.FeedbackButton);
@@ -76,7 +74,10 @@
             this.PagePanel.Controls.Add(this.BTSGroupBox);
             this.PagePanel.Controls.Add(this.ColorPickerGroupBox);
             this.PagePanel.Controls.Add(this.ControlsGroupBox);
+            this.PagePanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(248)))), ((int)(((byte)(232)))));
+            this.PagePanel.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.PagePanel.Size = new System.Drawing.Size(657, 730);
+            this.PagePanel.Style = Sunny.UI.UIStyle.Green;
             // 
             // ControlsGroupBox
             // 
@@ -563,26 +564,6 @@
             this.DonateButton.Text = "Donate";
             this.DonateButton.Click += new System.EventHandler(this.DonateButton_Click);
             // 
-            // RazerTestButton
-            // 
-            this.RazerTestButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RazerTestButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
-            this.RazerTestButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
-            this.RazerTestButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
-            this.RazerTestButton.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.RazerTestButton.ForeColor = System.Drawing.Color.Black;
-            this.RazerTestButton.Location = new System.Drawing.Point(26, 454);
-            this.RazerTestButton.Name = "RazerTestButton";
-            this.RazerTestButton.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.RazerTestButton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
-            this.RazerTestButton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
-            this.RazerTestButton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
-            this.RazerTestButton.Size = new System.Drawing.Size(156, 35);
-            this.RazerTestButton.Style = Sunny.UI.UIStyle.Custom;
-            this.RazerTestButton.TabIndex = 54;
-            this.RazerTestButton.Text = "Set Razer Color";
-            this.RazerTestButton.Click += new System.EventHandler(this.RazerTestButton_Click);
-            // 
             // LightPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -590,6 +571,8 @@
             this.ClientSize = new System.Drawing.Size(657, 765);
             this.Controls.Add(this.LightBulbIndicator);
             this.Name = "LightPage";
+            this.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.Style = Sunny.UI.UIStyle.Green;
             this.StyleCustomMode = true;
             this.Symbol = 61675;
             this.Text = "Page";
@@ -637,6 +620,5 @@
         private Sunny.UI.UISymbolButton ReportButton;
         private Sunny.UI.UISymbolButton DonateButton;
         private Sunny.UI.UISymbolButton SetNameButton;
-        private Sunny.UI.UISymbolButton RazerTestButton;
     }
 }
