@@ -54,6 +54,7 @@
             this.RefreshLightsButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
             this.RefreshLightsButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.RefreshLightsButton.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.RefreshLightsButton.ForeColor = System.Drawing.Color.Black;
             this.RefreshLightsButton.Location = new System.Drawing.Point(0, 765);
             this.RefreshLightsButton.Name = "RefreshLightsButton";
             this.RefreshLightsButton.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
@@ -64,7 +65,8 @@
             this.RefreshLightsButton.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.RefreshLightsButton.Size = new System.Drawing.Size(208, 35);
-            this.RefreshLightsButton.Style = Sunny.UI.UIStyle.Green;
+            this.RefreshLightsButton.Style = Sunny.UI.UIStyle.Custom;
+            this.RefreshLightsButton.StyleCustomMode = true;
             this.RefreshLightsButton.Symbol = 61473;
             this.RefreshLightsButton.TabIndex = 45;
             this.RefreshLightsButton.Text = "Refresh";
@@ -105,9 +107,11 @@
             this.Name = "MainForm";
             this.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.ShowRadius = false;
-            this.Style = Sunny.UI.UIStyle.Green;
+            this.Style = Sunny.UI.UIStyle.Custom;
+            this.StyleCustomMode = true;
             this.Text = "OpenYeeLight (RazerChroma test branch)";
             this.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.TitleForeColor = System.Drawing.Color.Black;
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.Controls.SetChildIndex(this.Aside, 0);
             this.Controls.SetChildIndex(this.RefreshLightsButton, 0);
