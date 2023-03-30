@@ -38,33 +38,33 @@
             // Aside
             // 
             this.Aside.LineColor = System.Drawing.Color.Black;
-            this.Aside.SelectedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.Aside.SelectedHighColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.Aside.SelectedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.Aside.SelectedHighColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.Aside.Size = new System.Drawing.Size(250, 765);
             this.Aside.Style = Sunny.UI.UIStyle.Custom;
             // 
             // StyleManager
             // 
-            this.StyleManager.Style = Sunny.UI.UIStyle.Red;
+            this.StyleManager.Style = Sunny.UI.UIStyle.Green;
             // 
             // RefreshLightsButton
             // 
             this.RefreshLightsButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RefreshLightsButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.RefreshLightsButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.RefreshLightsButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.RefreshLightsButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.RefreshLightsButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.RefreshLightsButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.RefreshLightsButton.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.RefreshLightsButton.Location = new System.Drawing.Point(0, 765);
             this.RefreshLightsButton.Name = "RefreshLightsButton";
             this.RefreshLightsButton.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
             this.RefreshLightsButton.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
-            this.RefreshLightsButton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.RefreshLightsButton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.RefreshLightsButton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.RefreshLightsButton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.RefreshLightsButton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.RefreshLightsButton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.RefreshLightsButton.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.RefreshLightsButton.Size = new System.Drawing.Size(208, 35);
-            this.RefreshLightsButton.Style = Sunny.UI.UIStyle.Red;
+            this.RefreshLightsButton.Style = Sunny.UI.UIStyle.Green;
             this.RefreshLightsButton.Symbol = 61473;
             this.RefreshLightsButton.TabIndex = 45;
             this.RefreshLightsButton.Text = "Refresh";
@@ -103,11 +103,11 @@
             this.MaximumSize = new System.Drawing.Size(907, 800);
             this.MinimumSize = new System.Drawing.Size(907, 800);
             this.Name = "MainForm";
-            this.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.ShowRadius = false;
-            this.Style = Sunny.UI.UIStyle.Custom;
+            this.Style = Sunny.UI.UIStyle.Green;
             this.Text = "OpenYeeLight (RazerChroma test branch)";
-            this.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.Controls.SetChildIndex(this.Aside, 0);
             this.Controls.SetChildIndex(this.RefreshLightsButton, 0);

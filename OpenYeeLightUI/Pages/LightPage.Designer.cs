@@ -74,7 +74,10 @@
             this.PagePanel.Controls.Add(this.BTSGroupBox);
             this.PagePanel.Controls.Add(this.ColorPickerGroupBox);
             this.PagePanel.Controls.Add(this.ControlsGroupBox);
+            this.PagePanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(248)))), ((int)(((byte)(232)))));
+            this.PagePanel.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.PagePanel.Size = new System.Drawing.Size(657, 730);
+            this.PagePanel.Style = Sunny.UI.UIStyle.Green;
             // 
             // ControlsGroupBox
             // 
@@ -82,15 +85,15 @@
             this.ControlsGroupBox.Controls.Add(this.ToggleButton);
             this.ControlsGroupBox.Controls.Add(this.TurnOffButton);
             this.ControlsGroupBox.Controls.Add(this.TurnOnButton);
-            this.ControlsGroupBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.ControlsGroupBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(248)))), ((int)(((byte)(232)))));
             this.ControlsGroupBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.ControlsGroupBox.Location = new System.Drawing.Point(13, 8);
             this.ControlsGroupBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ControlsGroupBox.Name = "ControlsGroupBox";
             this.ControlsGroupBox.Padding = new System.Windows.Forms.Padding(0, 32, 0, 0);
-            this.ControlsGroupBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.ControlsGroupBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.ControlsGroupBox.Size = new System.Drawing.Size(631, 82);
-            this.ControlsGroupBox.Style = Sunny.UI.UIStyle.Red;
+            this.ControlsGroupBox.Style = Sunny.UI.UIStyle.Green;
             this.ControlsGroupBox.TabIndex = 0;
             this.ControlsGroupBox.Text = "Controls";
             // 
@@ -118,18 +121,18 @@
             // ToggleButton
             // 
             this.ToggleButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ToggleButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.ToggleButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.ToggleButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.ToggleButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.ToggleButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.ToggleButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.ToggleButton.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.ToggleButton.Location = new System.Drawing.Point(337, 35);
             this.ToggleButton.Name = "ToggleButton";
             this.ToggleButton.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.ToggleButton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.ToggleButton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.ToggleButton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.ToggleButton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.ToggleButton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.ToggleButton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.ToggleButton.Size = new System.Drawing.Size(156, 35);
-            this.ToggleButton.Style = Sunny.UI.UIStyle.Red;
+            this.ToggleButton.Style = Sunny.UI.UIStyle.Green;
             this.ToggleButton.Symbol = 61473;
             this.ToggleButton.TabIndex = 2;
             this.ToggleButton.Text = "Toggle";
@@ -138,18 +141,18 @@
             // TurnOffButton
             // 
             this.TurnOffButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TurnOffButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.TurnOffButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.TurnOffButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.TurnOffButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.TurnOffButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.TurnOffButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.TurnOffButton.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.TurnOffButton.Location = new System.Drawing.Point(175, 35);
             this.TurnOffButton.Name = "TurnOffButton";
             this.TurnOffButton.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.TurnOffButton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.TurnOffButton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.TurnOffButton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.TurnOffButton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.TurnOffButton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.TurnOffButton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.TurnOffButton.Size = new System.Drawing.Size(156, 35);
-            this.TurnOffButton.Style = Sunny.UI.UIStyle.Red;
+            this.TurnOffButton.Style = Sunny.UI.UIStyle.Green;
             this.TurnOffButton.Symbol = 61926;
             this.TurnOffButton.TabIndex = 1;
             this.TurnOffButton.Text = "Turn off";
@@ -158,18 +161,18 @@
             // TurnOnButton
             // 
             this.TurnOnButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TurnOnButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.TurnOnButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.TurnOnButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.TurnOnButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.TurnOnButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.TurnOnButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.TurnOnButton.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.TurnOnButton.Location = new System.Drawing.Point(13, 35);
             this.TurnOnButton.Name = "TurnOnButton";
             this.TurnOnButton.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.TurnOnButton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.TurnOnButton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.TurnOnButton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.TurnOnButton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.TurnOnButton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.TurnOnButton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.TurnOnButton.Size = new System.Drawing.Size(156, 35);
-            this.TurnOnButton.Style = Sunny.UI.UIStyle.Red;
+            this.TurnOnButton.Style = Sunny.UI.UIStyle.Green;
             this.TurnOnButton.Symbol = 61457;
             this.TurnOnButton.TabIndex = 0;
             this.TurnOnButton.Text = "Turn on";
@@ -186,21 +189,21 @@
             this.LightBulbIndicator.ShowCenterColor = false;
             this.LightBulbIndicator.ShowLightLine = false;
             this.LightBulbIndicator.Size = new System.Drawing.Size(28, 28);
-            this.LightBulbIndicator.Style = Sunny.UI.UIStyle.Red;
+            this.LightBulbIndicator.Style = Sunny.UI.UIStyle.Green;
             this.LightBulbIndicator.TabIndex = 1;
             // 
             // ColorPickerGroupBox
             // 
             this.ColorPickerGroupBox.Controls.Add(this.ColorPickerComboBox);
-            this.ColorPickerGroupBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.ColorPickerGroupBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(248)))), ((int)(((byte)(232)))));
             this.ColorPickerGroupBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.ColorPickerGroupBox.Location = new System.Drawing.Point(13, 198);
             this.ColorPickerGroupBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ColorPickerGroupBox.Name = "ColorPickerGroupBox";
             this.ColorPickerGroupBox.Padding = new System.Windows.Forms.Padding(0, 32, 0, 0);
-            this.ColorPickerGroupBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.ColorPickerGroupBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.ColorPickerGroupBox.Size = new System.Drawing.Size(270, 86);
-            this.ColorPickerGroupBox.Style = Sunny.UI.UIStyle.Red;
+            this.ColorPickerGroupBox.Style = Sunny.UI.UIStyle.Green;
             this.ColorPickerGroupBox.TabIndex = 1;
             this.ColorPickerGroupBox.Text = "Color";
             // 
@@ -214,9 +217,9 @@
             this.ColorPickerComboBox.MinimumSize = new System.Drawing.Size(63, 0);
             this.ColorPickerComboBox.Name = "ColorPickerComboBox";
             this.ColorPickerComboBox.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
-            this.ColorPickerComboBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.ColorPickerComboBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.ColorPickerComboBox.Size = new System.Drawing.Size(244, 29);
-            this.ColorPickerComboBox.Style = Sunny.UI.UIStyle.Red;
+            this.ColorPickerComboBox.Style = Sunny.UI.UIStyle.Green;
             this.ColorPickerComboBox.TabIndex = 0;
             this.ColorPickerComboBox.Text = "uiColorPicker1";
             this.ColorPickerComboBox.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
@@ -234,15 +237,15 @@
             this.BTSGroupBox.Controls.Add(this.TemperatureTrackBar);
             this.BTSGroupBox.Controls.Add(this.BrightnessLabel);
             this.BTSGroupBox.Controls.Add(this.BrightnessTrackBar);
-            this.BTSGroupBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.BTSGroupBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(248)))), ((int)(((byte)(232)))));
             this.BTSGroupBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.BTSGroupBox.Location = new System.Drawing.Point(291, 198);
             this.BTSGroupBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BTSGroupBox.Name = "BTSGroupBox";
             this.BTSGroupBox.Padding = new System.Windows.Forms.Padding(0, 32, 0, 0);
-            this.BTSGroupBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.BTSGroupBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.BTSGroupBox.Size = new System.Drawing.Size(353, 218);
-            this.BTSGroupBox.Style = Sunny.UI.UIStyle.Red;
+            this.BTSGroupBox.Style = Sunny.UI.UIStyle.Green;
             this.BTSGroupBox.TabIndex = 2;
             this.BTSGroupBox.Text = "BTS";
             // 
@@ -252,7 +255,7 @@
             this.SmoothnessProcentLabel.Location = new System.Drawing.Point(270, 148);
             this.SmoothnessProcentLabel.Name = "SmoothnessProcentLabel";
             this.SmoothnessProcentLabel.Size = new System.Drawing.Size(80, 21);
-            this.SmoothnessProcentLabel.Style = Sunny.UI.UIStyle.Red;
+            this.SmoothnessProcentLabel.Style = Sunny.UI.UIStyle.Green;
             this.SmoothnessProcentLabel.TabIndex = 8;
             this.SmoothnessProcentLabel.Text = "1000MS";
             this.SmoothnessProcentLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -263,7 +266,7 @@
             this.TemperatureProcentLabel.Location = new System.Drawing.Point(293, 89);
             this.TemperatureProcentLabel.Name = "TemperatureProcentLabel";
             this.TemperatureProcentLabel.Size = new System.Drawing.Size(57, 21);
-            this.TemperatureProcentLabel.Style = Sunny.UI.UIStyle.Red;
+            this.TemperatureProcentLabel.Style = Sunny.UI.UIStyle.Green;
             this.TemperatureProcentLabel.TabIndex = 7;
             this.TemperatureProcentLabel.Text = "1700K";
             this.TemperatureProcentLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -274,7 +277,7 @@
             this.BrightnessProcentLabel.Location = new System.Drawing.Point(299, 32);
             this.BrightnessProcentLabel.Name = "BrightnessProcentLabel";
             this.BrightnessProcentLabel.Size = new System.Drawing.Size(51, 21);
-            this.BrightnessProcentLabel.Style = Sunny.UI.UIStyle.Red;
+            this.BrightnessProcentLabel.Style = Sunny.UI.UIStyle.Green;
             this.BrightnessProcentLabel.TabIndex = 6;
             this.BrightnessProcentLabel.Text = "100%";
             this.BrightnessProcentLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -286,7 +289,7 @@
             this.SmoothnessLabel.Location = new System.Drawing.Point(3, 148);
             this.SmoothnessLabel.Name = "SmoothnessLabel";
             this.SmoothnessLabel.Size = new System.Drawing.Size(103, 21);
-            this.SmoothnessLabel.Style = Sunny.UI.UIStyle.Red;
+            this.SmoothnessLabel.Style = Sunny.UI.UIStyle.Green;
             this.SmoothnessLabel.TabIndex = 5;
             this.SmoothnessLabel.Text = "Smoothness";
             this.SmoothnessLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -294,15 +297,15 @@
             // SmoothnessTrackBar
             // 
             this.SmoothnessTrackBar.DisableColor = System.Drawing.Color.Silver;
-            this.SmoothnessTrackBar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.SmoothnessTrackBar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(248)))), ((int)(((byte)(232)))));
             this.SmoothnessTrackBar.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.SmoothnessTrackBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.SmoothnessTrackBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.SmoothnessTrackBar.Location = new System.Drawing.Point(3, 173);
             this.SmoothnessTrackBar.Minimum = 1;
             this.SmoothnessTrackBar.Name = "SmoothnessTrackBar";
-            this.SmoothnessTrackBar.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.SmoothnessTrackBar.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.SmoothnessTrackBar.Size = new System.Drawing.Size(347, 29);
-            this.SmoothnessTrackBar.Style = Sunny.UI.UIStyle.Red;
+            this.SmoothnessTrackBar.Style = Sunny.UI.UIStyle.Green;
             this.SmoothnessTrackBar.TabIndex = 4;
             this.SmoothnessTrackBar.Value = 100;
             this.SmoothnessTrackBar.ValueChanged += new System.EventHandler(this.SmoothnessTrackBar_ValueChanged);
@@ -314,7 +317,7 @@
             this.TemperatureLabel.Location = new System.Drawing.Point(3, 89);
             this.TemperatureLabel.Name = "TemperatureLabel";
             this.TemperatureLabel.Size = new System.Drawing.Size(108, 21);
-            this.TemperatureLabel.Style = Sunny.UI.UIStyle.Red;
+            this.TemperatureLabel.Style = Sunny.UI.UIStyle.Green;
             this.TemperatureLabel.TabIndex = 3;
             this.TemperatureLabel.Text = "Temperature";
             this.TemperatureLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -322,16 +325,16 @@
             // TemperatureTrackBar
             // 
             this.TemperatureTrackBar.DisableColor = System.Drawing.Color.Silver;
-            this.TemperatureTrackBar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.TemperatureTrackBar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(248)))), ((int)(((byte)(232)))));
             this.TemperatureTrackBar.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.TemperatureTrackBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.TemperatureTrackBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.TemperatureTrackBar.Location = new System.Drawing.Point(3, 114);
             this.TemperatureTrackBar.Maximum = 6500;
             this.TemperatureTrackBar.Minimum = 1700;
             this.TemperatureTrackBar.Name = "TemperatureTrackBar";
-            this.TemperatureTrackBar.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.TemperatureTrackBar.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.TemperatureTrackBar.Size = new System.Drawing.Size(347, 29);
-            this.TemperatureTrackBar.Style = Sunny.UI.UIStyle.Red;
+            this.TemperatureTrackBar.Style = Sunny.UI.UIStyle.Green;
             this.TemperatureTrackBar.TabIndex = 2;
             this.TemperatureTrackBar.Value = 1700;
             this.TemperatureTrackBar.ValueChanged += new System.EventHandler(this.TemperatureTrackBar_ValueChanged);
@@ -344,7 +347,7 @@
             this.BrightnessLabel.Location = new System.Drawing.Point(3, 32);
             this.BrightnessLabel.Name = "BrightnessLabel";
             this.BrightnessLabel.Size = new System.Drawing.Size(89, 21);
-            this.BrightnessLabel.Style = Sunny.UI.UIStyle.Red;
+            this.BrightnessLabel.Style = Sunny.UI.UIStyle.Green;
             this.BrightnessLabel.TabIndex = 1;
             this.BrightnessLabel.Text = "Brightness";
             this.BrightnessLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -352,15 +355,15 @@
             // BrightnessTrackBar
             // 
             this.BrightnessTrackBar.DisableColor = System.Drawing.Color.Silver;
-            this.BrightnessTrackBar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.BrightnessTrackBar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(248)))), ((int)(((byte)(232)))));
             this.BrightnessTrackBar.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.BrightnessTrackBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.BrightnessTrackBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.BrightnessTrackBar.Location = new System.Drawing.Point(3, 57);
             this.BrightnessTrackBar.Minimum = 1;
             this.BrightnessTrackBar.Name = "BrightnessTrackBar";
-            this.BrightnessTrackBar.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.BrightnessTrackBar.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.BrightnessTrackBar.Size = new System.Drawing.Size(347, 29);
-            this.BrightnessTrackBar.Style = Sunny.UI.UIStyle.Red;
+            this.BrightnessTrackBar.Style = Sunny.UI.UIStyle.Green;
             this.BrightnessTrackBar.TabIndex = 0;
             this.BrightnessTrackBar.Text = "uiTrackBar1";
             this.BrightnessTrackBar.Value = 100;
@@ -373,33 +376,33 @@
             this.ProfileGroupBox.Controls.Add(this.NewProfileButton);
             this.ProfileGroupBox.Controls.Add(this.SaveProfileButton);
             this.ProfileGroupBox.Controls.Add(this.ProfileComboBox);
-            this.ProfileGroupBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.ProfileGroupBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(248)))), ((int)(((byte)(232)))));
             this.ProfileGroupBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.ProfileGroupBox.Location = new System.Drawing.Point(13, 100);
             this.ProfileGroupBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ProfileGroupBox.Name = "ProfileGroupBox";
             this.ProfileGroupBox.Padding = new System.Windows.Forms.Padding(0, 32, 0, 0);
-            this.ProfileGroupBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.ProfileGroupBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.ProfileGroupBox.Size = new System.Drawing.Size(631, 88);
-            this.ProfileGroupBox.Style = Sunny.UI.UIStyle.Red;
+            this.ProfileGroupBox.Style = Sunny.UI.UIStyle.Green;
             this.ProfileGroupBox.TabIndex = 3;
             this.ProfileGroupBox.Text = "Profile";
             // 
             // NewDeleteProfile
             // 
             this.NewDeleteProfile.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.NewDeleteProfile.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.NewDeleteProfile.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.NewDeleteProfile.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.NewDeleteProfile.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.NewDeleteProfile.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.NewDeleteProfile.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.NewDeleteProfile.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.NewDeleteProfile.Location = new System.Drawing.Point(516, 37);
             this.NewDeleteProfile.Name = "NewDeleteProfile";
             this.NewDeleteProfile.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.NewDeleteProfile.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.NewDeleteProfile.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.NewDeleteProfile.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.NewDeleteProfile.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.NewDeleteProfile.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.NewDeleteProfile.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.NewDeleteProfile.Size = new System.Drawing.Size(100, 29);
-            this.NewDeleteProfile.Style = Sunny.UI.UIStyle.Red;
+            this.NewDeleteProfile.Style = Sunny.UI.UIStyle.Green;
             this.NewDeleteProfile.Symbol = 61944;
             this.NewDeleteProfile.TabIndex = 3;
             this.NewDeleteProfile.Text = "Delete";
@@ -408,18 +411,18 @@
             // NewProfileButton
             // 
             this.NewProfileButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.NewProfileButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.NewProfileButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.NewProfileButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.NewProfileButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.NewProfileButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.NewProfileButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.NewProfileButton.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.NewProfileButton.Location = new System.Drawing.Point(410, 37);
             this.NewProfileButton.Name = "NewProfileButton";
             this.NewProfileButton.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.NewProfileButton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.NewProfileButton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.NewProfileButton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.NewProfileButton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.NewProfileButton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.NewProfileButton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.NewProfileButton.Size = new System.Drawing.Size(100, 29);
-            this.NewProfileButton.Style = Sunny.UI.UIStyle.Red;
+            this.NewProfileButton.Style = Sunny.UI.UIStyle.Green;
             this.NewProfileButton.Symbol = 61543;
             this.NewProfileButton.TabIndex = 2;
             this.NewProfileButton.Text = "New";
@@ -428,18 +431,18 @@
             // SaveProfileButton
             // 
             this.SaveProfileButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.SaveProfileButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.SaveProfileButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.SaveProfileButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.SaveProfileButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.SaveProfileButton.FillHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.SaveProfileButton.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.SaveProfileButton.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.SaveProfileButton.Location = new System.Drawing.Point(304, 37);
             this.SaveProfileButton.Name = "SaveProfileButton";
             this.SaveProfileButton.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.SaveProfileButton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.SaveProfileButton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
-            this.SaveProfileButton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
+            this.SaveProfileButton.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.SaveProfileButton.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
+            this.SaveProfileButton.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.SaveProfileButton.Size = new System.Drawing.Size(100, 29);
-            this.SaveProfileButton.Style = Sunny.UI.UIStyle.Red;
+            this.SaveProfileButton.Style = Sunny.UI.UIStyle.Green;
             this.SaveProfileButton.Symbol = 61639;
             this.SaveProfileButton.TabIndex = 1;
             this.SaveProfileButton.Text = "Save";
@@ -455,9 +458,9 @@
             this.ProfileComboBox.MinimumSize = new System.Drawing.Size(63, 0);
             this.ProfileComboBox.Name = "ProfileComboBox";
             this.ProfileComboBox.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
-            this.ProfileComboBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.ProfileComboBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.ProfileComboBox.Size = new System.Drawing.Size(284, 29);
-            this.ProfileComboBox.Style = Sunny.UI.UIStyle.Red;
+            this.ProfileComboBox.Style = Sunny.UI.UIStyle.Green;
             this.ProfileComboBox.TabIndex = 0;
             this.ProfileComboBox.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.ProfileComboBox.SelectedIndexChanged += new System.EventHandler(this.ProfileComboBox_SelectedIndexChanged);
@@ -465,15 +468,15 @@
             // InformationGroupBox
             // 
             this.InformationGroupBox.Controls.Add(this.InformationTextBox);
-            this.InformationGroupBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.InformationGroupBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(248)))), ((int)(((byte)(232)))));
             this.InformationGroupBox.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.InformationGroupBox.Location = new System.Drawing.Point(13, 287);
             this.InformationGroupBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.InformationGroupBox.Name = "InformationGroupBox";
             this.InformationGroupBox.Padding = new System.Windows.Forms.Padding(0, 32, 0, 0);
-            this.InformationGroupBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.InformationGroupBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.InformationGroupBox.Size = new System.Drawing.Size(270, 129);
-            this.InformationGroupBox.Style = Sunny.UI.UIStyle.Red;
+            this.InformationGroupBox.Style = Sunny.UI.UIStyle.Green;
             this.InformationGroupBox.TabIndex = 4;
             this.InformationGroupBox.Text = "Information";
             // 
@@ -490,9 +493,9 @@
             this.InformationTextBox.Name = "InformationTextBox";
             this.InformationTextBox.Padding = new System.Windows.Forms.Padding(5);
             this.InformationTextBox.ReadOnly = true;
-            this.InformationTextBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.InformationTextBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.InformationTextBox.Size = new System.Drawing.Size(244, 76);
-            this.InformationTextBox.Style = Sunny.UI.UIStyle.Red;
+            this.InformationTextBox.Style = Sunny.UI.UIStyle.Green;
             this.InformationTextBox.TabIndex = 0;
             // 
             // FeedbackButton
@@ -568,6 +571,8 @@
             this.ClientSize = new System.Drawing.Size(657, 765);
             this.Controls.Add(this.LightBulbIndicator);
             this.Name = "LightPage";
+            this.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
+            this.Style = Sunny.UI.UIStyle.Green;
             this.StyleCustomMode = true;
             this.Symbol = 61675;
             this.Text = "Page";
